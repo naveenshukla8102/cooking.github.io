@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  position: relative;
+  z-index: 3;
+}
+
+.container-1 {
+  position: relative;
+  z-index: 1;
+}
+.container-1 .carousel-item-1 {
+  background-image: url(/img/banner1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.container-1 .carousel-item-2 {
+  background-image: url(/img/banner2.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.container-1 .carousel-item-3 {
+  background-image: url(/img/banner3.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.container-1 .carousel-item-4 {
+  background-image: url(/img/banner4.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-5 .hover div {
+  position: relative;
+  top: -50px;
+  z-index: 1;
+  transform: 2s;
+}
+.container-5 .hover div span {
+  display: none;
+}
+.container-5 .hover:hover div {
+  top: -100px;
+}
+.container-5 .hover:hover div span {
+  display: block;
+}
+
+.slide-content {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  background: rgba(22, 12, 48, 0.25);
+}
+.slide-content h1 {
+  font-size: 5rem;
+}
+
+.container-6 {
+  background-image: url("/img/bg3.jpg");
+  background-size: cover;
+  height: 80vh;
+}
+
+.less-op {
+  background: rgba(6, 6, 68, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.container-3 .img-hover-div {
+  max-height: 250px;
+  overflow: hidden;
+}
+.container-3 .img-hover {
+  transition: transform 0.2s;
+}
+.container-3 .img-hover:hover {
+  transform: scale(1.2);
+}
+
+footer li:hover {
+  color: red;
+}
+
+.hover-colour-red:hover {
+  color: red;
+}/*# sourceMappingURL=cooking.css.map */
